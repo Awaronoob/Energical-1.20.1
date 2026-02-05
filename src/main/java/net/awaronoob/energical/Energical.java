@@ -1,6 +1,9 @@
 package net.awaronoob.energical;
 
 import com.mojang.logging.LogUtils;
+import net.awaronoob.energical.block.ModBlocks;
+import net.awaronoob.energical.item.ModCreativeModeTabs;
+import net.awaronoob.energical.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -29,6 +32,14 @@ public class Energical
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+
+        Energical.LOGGER.info("Registering creative mode tabs for " + Energical.MOD_ID);
+        ModCreativeModeTabs.register(modEventBus);
+
+        Energical.LOGGER.info("Registering items for " + Energical.MOD_ID);
+        ModItems.register(modEventBus);
+        Energical.LOGGER.info("Registering blocks for " + Energical.MOD_ID);
+        ModBlocks.register(modEventBus);
 
 
         // Register ourselves for server and other game events we are interested in

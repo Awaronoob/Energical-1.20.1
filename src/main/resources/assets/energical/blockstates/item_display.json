@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "energical:block/item_display"
+    }
+  }
+}

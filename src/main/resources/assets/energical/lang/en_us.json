@@ -1,0 +1,21 @@
+{
+  "item.energical.neodymite_ingot": "Neodymite Ingot",
+  "item.energical.raw_neodymite": "Raw Neodymite",
+  "item.energical.unpressed_fluxxite": "Unpressed Fluxxite",
+  "item.energical.neodymite_sheet": "Neodymite Sheet",
+  "item.energical.iron_sheet": "Iron Sheet",
+  "item.energical.copper_sheet": "Copper Sheet",
+  "item.energical.netherite_sheet": "Netherite Sheet",
+
+  "block.energical.neodymite_block": "Neodymite Block",
+  "block.energical.raw_neodymite_block": "Raw Neodymite Block",
+  "block.energical.fluxxite_block": "Fluxxite Block",
+  "block.energical.neodymite_ore": "Neodymite Ore",
+  "block.energical.deepslate_neodymite_ore": "Deepslate Neodymite Ore",
+  "block.energical.item_display": "Item Display",
+
+
+  "creativetab.energical.energical_materials_tab": "Energical Materials Tab",
+  "creativetab.energical.energical_blocks_tab": "Energical Blocks Tab"
+
+}
